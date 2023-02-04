@@ -1,0 +1,10 @@
+.card{
+    display: grid;
+    grid-template-rows: repeat(3, 15px);
+    gap: 6.25rem;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 2rem;
+    
+
+}
