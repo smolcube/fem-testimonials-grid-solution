@@ -1,0 +1,47 @@
+@forward './app/scss/globals/';
+@forward './app/scss/util/';
+@forward './app/scss/components/';
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,0.5fr);
+    grid-template-rows: repeat(2,0.5fr);
+    gap: 2rem;
+    grid-template-areas: 
+    "dan dan jon kir"
+    "jea pat pat kir"
+    ;
+
+}
+
+.card-dan{
+    background-color: var(--violet);
+    grid-area: "dan";
+    grid-column: 1/3;
+    color: var(--txt);
+    width: fit-content;
+}
+.card-jon{
+    background-color: var(--light-grey);
+    grid-area: "jon";
+    grid-column: 3/4;
+}
+.card-kir{
+    background-color: white;
+    grid-area: "kir";
+    grid-column: 4/5;
+    grid-row: 1/5;
+
+}
+.card-jea{
+    background-color: white;
+    grid-area: "jea";
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.card-pat{
+    background-color: var(--dark-grey);
+    grid-area: "pat";
+    grid-column: 2/4;
+}

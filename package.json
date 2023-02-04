@@ -1,0 +1,30 @@
+{
+  "name": "testimonials-grid-section-main",
+  "version": "1.0.0",
+  "description": "frontend-mentor challenge solution",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch main.scss ./dist/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smolcube/fem-testimonials-grid-solution.git"
+  },
+  "keywords": [
+    "frontend",
+    "mentor",
+    "fem",
+    "testimonial grid",
+    "grid",
+    "sass"
+  ],
+  "author": "Rokaia Mostafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smolcube/fem-testimonials-grid-solution/issues"
+  },
+  "homepage": "https://github.com/smolcube/fem-testimonials-grid-solution#readme",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}
