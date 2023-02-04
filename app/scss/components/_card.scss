@@ -1,10 +1,18 @@
+//general styles for all cards
+
 .card{
     display: grid;
-    grid-template-rows: repeat(3, 15px);
-    gap: 6.25rem;
-    background-color: lightblue;
+    grid-template-rows: 5px, 20px 20px;
+    gap: 2rem;
     border-radius: 10px;
-    padding: 2rem;
-    
+    padding: 2.3rem ;
 
+}
+.card-header{
+    font-size: 1.8rem;
+}
+
+.info{
+    display: grid;
+    grid-auto-flow: column;
 }
