@@ -53,6 +53,6 @@ In the future i'd need to focus more on implementing reusable classes, it was he
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Rokaia Mostafa](https://smolcube.github.io/Rokaia/)
+- Frontend Mentor - [@smolcube](https://www.frontendmentor.io/profile/smolcube)
+- GitHub - [@smolcube](https://github.com/smolcube)
